@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.amplify-button[data-variation='primary'] {
+  background: rgb(25, 118, 210);
+  margin-bottom: 25px;
+}
+
+.amplify-button[data-variation='primary']:hover {
+  background: rgb(25, 118, 210);
+  /* margin-bottom: 25px; */
+}
+
+.amplify-tabs {
+  display: none !important;
+  color: rgb(25, 118, 210) !important;
+}
+
+[data-amplify-form] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+[data-amplify-authenticator] [data-amplify-router] {
+  border-color: transparent !important;
+  background-color: white !important;
+  box-shadow: var(--amplify-components-authenticator-router-box-shadow);
+}
+
+.federated-sign-in-container {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+[data-amplify-authenticator] [data-amplify-form] {
+  padding-bottom: 0 !important;
+}
+
+.amplify-authenticator
+  .amplify-form-section
+  .amplify-form-section-body
+  .amplify-form-button
+  .amplify-form-button-right {
+  order: -1 !important;
+}
+
+/* Adjust the spacing between the buttons, if needed */
+.amplify-authenticator
+  .amplify-form-section
+  .amplify-form-section-body
+  .amplify-form-button {
+  margin-top: 10px !important;
+}
+
+.amplify-label {
+  display: none !important;
+}
+
+.data-amplify-authenticator-signup {
+  display: none !important;
+}
+
+.amplify-button--link {
+  /* display: none !important; */
+  margin-bottom: 25px !important;
+  margin-top: 0px !important;
+}
+
+.amplify-button {
+  margin-bottom: 15px !important;
+}
+.federated-sign-in-button {
+  margin-bottom: 0px !important;
+}
+
+.amplify-field__show-password {
+  margin-bottom: 0px !important;
+}
+
+[data-amplify-authenticator] {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 95% !important;
+  margin-left: 25px;
+  border-radius: 5px !important;
+  border-style: hidden;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+table tbody {
+  display: table !important;
+  width: 100% !important;
+}
+
+tbody {
+  /* width: 100% !important; */
+  /* display: block !important; */
+  /* Just for the demo          */
+  overflow-y: auto; /* Trigger vertical scroll    */
+  overflow-x: auto;
+}
+
+.tr:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.td-fr {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.th {
+  padding: 18px;
+  text-align: left;
+  font-size: 13px;
+  color: #7f7f7f !important;
+  font-weight: 700;
+  font-family: 'Source Sans Pro Bold', 'Source Sans Pro', sans-serif;
+}
+.tr {
+  height: 60px;
+}
+
+.head {
+  /* width: 100% !important; */
+}
+
+.th-mod {
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+.th-sec {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* 
+.federated-sign-in-button:has(svg[aria-label='Google icon']) {
+  color: #ffffff !important;
+  opacity: 0;
+  background-image: url('../public/Google_1.svg') !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.federated-sign-in-button svg[aria-label='Google icon'] {
+  color: #ffffff !important;
+  display: none;
+  background-image: url('../public/Google_1.svg') !important;
+  background-size: 300px 100px !important;
+}
+
+.federated-sign-in-button span[class='amplify-text'] {
+  background-color: #ff0000 !important;
+  color: #ffffff !important;
+  opacity: 0;
+}
+
+.federated-sign-in-button:has(svg[aria-label='Facebook icon']) {
+  color: #ffffff !important;
+  opacity: 0;
+  background-image: url('../public/facebook_1.svg') !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 100px;
+}
+
+.federated-sign-in-button svg[aria-label='Facebook icon'] {
+  color: #ffffff !important;
+  display: none;
+  background-image: url('../public/facebook_1.svg') !important;
+  background-size: 300px 100px !important;
+}
+
+.federated-sign-in-button span[class='amplify-text'] {
+  opacity: 0;
+}
+
+.federated-sign-in-button {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row-reverse !important;
+  text-align: left !important;
+} */

@@ -1,0 +1,16 @@
+{
+  "name": "dynamo-auth",
+  "version": "1.0.2",
+  "description": "Starter auth  app for Web application",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Surya",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/ui-react": "^4.6.1",
+    "@mui/material": "^5.12.3",
+    "react": "^18.2.0"
+  }
+}
